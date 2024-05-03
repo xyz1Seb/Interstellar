@@ -9,7 +9,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
   const popup = open("about:blank", "_blank")
   if (!popup || popup.closed) {
-    alert("Please allow popups and redirects.")
+    alert("Auf OK drücken (Thisi).")
   } else {
     const doc = popup.document
     const iframe = doc.createElement("iframe")
@@ -38,7 +38,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const script = doc.createElement("script")
     script.textContent = `
       window.onbeforeunload = function (event) {
-        const confirmationMessage = 'Leave Site?';
+        const confirmationMessage = 'Wenn du zu machst speichert nichts';
         (event || window.event).returnValue = confirmationMessage;
         return confirmationMessage;
       };
@@ -164,16 +164,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
 })
 
 let splashtext = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
-  "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
-  "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+  "Von Ralf Infanger zertifiziert!",
+  "Interspectrum Proxy server erstellt von xyzSeb",
+  "Thisi big bot",
+  "Interspectrum Proxy>>>",
+  "Viel spaß",
+  "Saki Tom",
+  "Roif Infanger",
+  "Hallo ich bin die Baaanfee mihai",
 ]
 
 document.getElementById("splash").innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
