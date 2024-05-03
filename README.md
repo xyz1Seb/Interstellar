@@ -1,6 +1,7 @@
 <div align="center">
     <img src="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/77c63680-544b-42e9-88d6-d288e7681e82">
     <p>Serving over 8+ million users since 2023.<p>
+    <p>RanieGG 2024 approved!<p>
     <p>Interstellar is a web proxy with a Clean and Sleek UI and easy to use menus. Our goal is to provide the best user experience to everyone.</p>
 </div>
 
@@ -86,6 +87,4 @@ If you encounter problems, open an issue on GitHub, and we'll address it promptl
 
 # Credits
 
-A huge thanks goes out to all of the people who have contributed to Interstellar.
-
-[![Contributors](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
+A huge thanks goes out to xyzSeb for publishing this!
